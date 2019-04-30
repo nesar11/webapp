@@ -64,7 +64,7 @@ router.post('/insert', function (req, res, next) {
         }
     });
 });
-
+/* delete users listing. */
 router.delete('/delete', function(req, res) {
     User.remove({_id: req.body.id}, function (err, user) {
         if(err){
