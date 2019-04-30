@@ -14,4 +14,6 @@ Method PUT (REquest localhost:3000/users/update
 
 4. Delete
 Delete Request to be send by Body request
-Method Delete (REquest localhost:3000/users/Delete
+Method Delete (REquest http://localhost:3000/users/delete/:id
+
+
