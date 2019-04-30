@@ -10,7 +10,8 @@ Method POST (REquest localhost:3000/users/insert
 
 3. Update
 PUT Request to be send by Body request
-Method PUT (REquest localhost:3000/users/update
+Method PUT (REquest http://localhost:3000/users/update/:id
+Body> x-www-form-urlecoded> data
 
 4. Delete
 Delete Request to be send by Body request
