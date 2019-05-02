@@ -15,13 +15,6 @@ router.get('/', function(req, res, next) {
 });
 
 
-/* CREATE users listing. */
-router.get('/create', function(req, res, next) {
-
-            res.json('user/create', {title:'User Create'});
-
-});
-
 
 
 /* GET users Details. */
